@@ -40,9 +40,9 @@ h1 {
 
 #wrapper {
     background: #e785b8; /* Old browsers */
-    background: -moz-linear-gradient(top, #52042d 0%, #52042d 20%, #e785b8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #52042d 0%, #52042d 20%, #e785b8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #52042d 0%, #52042d 20%, #e785b8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top, #52042d 0%, #52042d 18%, #e785b8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #52042d 0%, #52042d 18%, #e785b8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #52042d 0%, #52042d 18%, #e785b8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52042d', endColorstr='#e785b8',GradientType=0 ); /* IE6-9 */
 }
 
@@ -51,13 +51,7 @@ header {
     background: #52042d;
 }
 
-main {
-    width: 100%;
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/*Index*/
 main.index {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -102,3 +96,32 @@ main.index section {
     text-align: center;
     padding-top: 5px;
 }
+/*Index-Ende*/
+
+/*Detail*/
+main {
+    width: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#woman_image {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+
+#woman_image img {
+    width: 100%;
+}
+
+#woman_text {
+    width: 100%;
+    max-width: 650px;
+    float: right;
+}
+/*Detail-Ende*/
