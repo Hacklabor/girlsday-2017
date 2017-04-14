@@ -1,7 +1,7 @@
 /*--------------------------*/
 /* --Browser-Kalibrierung-- */
 /*--------------------------*/
-* { padding: 0; margin: 0; border: 0; font-family: Arial, sans-serif; box-sizing: border-box;}
+* { padding: 0; margin: 0; border: 0; font-family: 'Open Sans', Arial, sans-serif; font-size: 18px; box-sizing: border-box;}
 
 
 /* Anweisungen für IE */
@@ -19,47 +19,86 @@ img { display: block; }
 /* ---Ende Kalibrierung--- */
 /*--------------------------*/
 
+
+/*-------------*/
+/*----Fonts----*/
+/*-------------*/
+/*font-family: 'Unica One', cursive;
+font-family: 'Open Sans', sans-serif;*/
+/*-------------*/
+/*-Fonts-Ende--*/
+/*-------------*/
+
 h1 {
-    color: #3e0e24;
-    position: absolute;
+    color: #cf0b71;
     top: 40%;
+    font-family: 'Unica One', cursive;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 17px;
 }
 
 #wrapper {
-    background: #fef8fa;
+    background: #e785b8; /* Old browsers */
+    background: -moz-linear-gradient(top, #52042d 0%, #52042d 20%, #e785b8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #52042d 0%, #52042d 20%, #e785b8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #52042d 0%, #52042d 20%, #e785b8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52042d', endColorstr='#e785b8',GradientType=0 ); /* IE6-9 */
+}
+
+header {
+    height: 14%;
+    background: #52042d;
+}
+
+main {
+    width: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main.index {
     display: grid;
-    grid-template-rows:100%;
-    grid-template-columns:25% 25% 25% 25%;
-    height: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 86%;
+}
+
+main.index a {
+    color: #3e0e24;
+    text-decoration: none;
 }
 
 main.index section {
     height: 100%;
 }
 
-#woman1 {
+#woman1, #woman5 {
     background: #cf0b71;
-    background: rgba(207,11,113,0.6) url("barbie-1436476_960_720.jpg");
+    background: rgba(207,11,113,0.6) url("barbie-1436476_960_720.jpg") 78%;
 }
 
-#woman2 {
+#woman2,#woman6 {
     background: #12b8e8;
-    background: rgba(18,184,232,0.6) url("adult-2179204_960_720.jpg");
+    background: rgba(18,184,232,0.6) url("adult-2179204_960_720.jpg") 60%;
 }
 
-#woman3 {
+#woman3, #woman7 {
     background: #ec7b03;
     background: rgba(236,123,3,0.6) url("cyber-2062846_960_720.png");
 }
 
-#woman4 {
+#woman4, #woman8 {
     background: #108a41;
-    background: rgba(16,138,65,0.6) url("clouds-1845517_960_720.jpg");
+    background: rgba(16,138,65,0.6) url("clouds-1845517_960_720.jpg") 105%;
 }
 
 #wrapper .women {
     background-size: cover;
+}
+
+#wrapper .women p {
+    text-align: center;
+    padding-top: 5px;
 }
