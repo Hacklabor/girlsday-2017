@@ -19,7 +19,6 @@ img { display: block; }
 /* ---Ende Kalibrierung--- */
 /*--------------------------*/
 
-
 /*-------------*/
 /*----Fonts----*/
 /*-------------*/
@@ -41,7 +40,7 @@ h1 {
 h2 {
     color: #053543;
     font-family: 'Unica One', cursive;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #wrapper {
@@ -173,5 +172,14 @@ article {
     overflow: auto;
     background: #f6f0f0;
     padding: 20px;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
 }
 /*Detail-Ende*/
