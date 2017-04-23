@@ -5,7 +5,7 @@
 
 
 /* Anweisungen für IE */
-html, body, #wrapper {  
+html, body, #wrapper {
     width: 100%;
     height: 100%;
     color: #053543;
@@ -53,24 +53,34 @@ h2 {
     overflow: auto;
 }
 
-#woman1, #woman5 {
+#woman1 {
     background: #cf0b71;
     background: rgba(207,11,113,0.6) url("Ada_Lovelace_portrait.jpg") 78% 23%;
 }
 
-#woman2,#woman6 {
+#woman2 {
     background: #12b8e8;
-    background: rgba(18,184,232,0.6) url("adult-2179204_960_720.jpg") 60%;
+    background: rgba(18,184,232,0.6) url("Grace_Hopper_and_UNIVAC.jpg") 60%;
 }
 
 #woman3 {
     background: #ec7b03;
-    background: rgba(236,123,3,0.6) url("cyber-2062846_960_720.png");
+    background: rgba(236,123,3,0.6) url("Christiane-Floyd.jpg");
 }
 
 #woman4 {
     background: #108a41;
-    background: rgba(16,138,65,0.6) url("clouds-1845517_960_720.jpg") 95%;
+    background: rgba(16,138,65,0.6) url("TechCrunch_SF_2013_4S2A3709_Marissa_Mayer.jpg") 95%;
+}
+
+#woman5 {
+   background: #cf0b71;
+   background: rgba(207,11,113,0.6) url("simone_giertz.jpg") 78% 23%;
+}
+
+#woman6 {
+    background: #12b8e8;
+    background: rgba(18,184,232,0.6) url("Jade_Raymond_Feb_2012-cropped.jpg") 60%;
 }
 
 #wrapper .women {
@@ -178,7 +188,7 @@ article {
   from {
     -webkit-transform: rotate(0deg);
   }
-  to { 
+  to {
     -webkit-transform: rotate(360deg);
   }
 }
