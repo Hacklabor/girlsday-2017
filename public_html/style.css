@@ -83,13 +83,21 @@ h2 {
     background: rgba(18,184,232,0.6) url("Jade_Raymond_Feb_2012-cropped.jpg") 60%;
 }
 
+
+
 #wrapper .women {
     background-size: cover;
 }
 
 #wrapper .women p {
     text-align: center;
-    padding-top: 5px;
+    padding: 3px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
 }
 
 header {
@@ -120,6 +128,7 @@ main.index {
 
 main.index a {
     color: #053543;
+    /*text-shadow: 0 -1px #053543, 1px 0 #053543, 0 1px #053543, -1px 0 #053543;*/
     text-decoration: none;
 }
 
